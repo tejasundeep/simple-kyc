@@ -1,0 +1,90 @@
+body {
+    font-family: sans-serif;
+    background: #e4ebf5;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        margin: 0;
+        span {
+            color: #2c33bf;
+        }
+    }
+
+    label {
+        display: inline-block;
+        margin: 0.85rem 0;
+        font-weight: 600;
+    }
+
+    input[type="file"] {
+        padding: 10px;
+        background: #ffffff;
+        border: 1px solid;
+        font-size: 0.85em;
+        border-radius: 4px;
+    }
+
+    input[type="file"]::file-selector-button {
+        margin-right: 20px;
+        border: none;
+        background: #000000;
+        padding: 10px 20px;
+        color: #ffffff;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: background 0.2s ease-in-out;
+    }
+
+    input:hover::file-selector-button {
+        background: #212121;
+        color: #dce4ec;
+    }
+
+    button {
+        width: 100%;
+        font-size: 0.9rem;
+        font-weight: 600;
+        background: #0d6efd;
+        padding: 0.85rem 2rem;
+        color: #ffffff;
+        border: none;
+        outline: none;
+        box-shadow: none;
+        border-radius: 4px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .card {
+        background: rgb(0 0 0 / 3%);
+        padding: 2rem;
+        margin: 3rem 0;
+        border-radius: 10px;
+    }
+
+    .face_verify {
+        padding: 1rem;
+        border-radius: 20px;
+        margin-top: 3rem;
+        box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #ffffff;
+    }
+
+    video {
+        border-radius: 20px;
+    }
+
+    canvas {
+        position: absolute;
+    }
+    .msg {
+        padding: 1rem;
+        border: 2px dashed rgb(0 0 0 / 8%);
+        border-radius: 4px;
+    }
+}

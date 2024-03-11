@@ -1,0 +1,23 @@
+# Ignore Next.js build output
+/.next/
+
+# Ignore Node.js modules
+node_modules/
+
+# Ignore environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore yarn errors file
+yarn-error.log
