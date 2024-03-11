@@ -20,7 +20,7 @@ const ScrapedTextDisplay = ({ scrapedText }) => (
         {scrapedText.map((text, index) => (
             <div key={index}>
                 {index === 0 && <p>Name: {text}</p>}
-                {index === 1 && <p>Father's Name: {text}</p>}
+                {index === 1 && <p>Fathers Name: {text}</p>}
                 {index === 2 && <p>PAN Number: {text}</p>}
                 {index === 3 && <p>DOB: {text}</p>}
             </div>
